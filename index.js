@@ -5,9 +5,9 @@ const { exec } = require('youtube-dl-exec');
 const ffmpeg = require('fluent-ffmpeg');
 const app = express();
 
-const YOUTUBE_API_KEY = ''; // Replace with your YouTube API key
+const YOUTUBE_API_KEY = 'process.env.YOUTUBE_API_KEY'; // Replace with your YouTube API key
 
-const ffmpegPath = ''; // Ensure this path is correct
+const ffmpegPath = 'process.env.FFMPEG_PATH'; // Ensure this path is correct
 ffmpeg.setFfmpegPath(ffmpegPath);
 
 app.use(cors());
