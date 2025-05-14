@@ -1,39 +1,24 @@
-🎶 TuneTriumph:<br/>
-Your sleek web music player that streams directly from YouTube — as MP3!
+# TuneTriumph
+Your sleek web music player that streams directly from YouTube — MP3-style.
 
-<br/>
-🚀 Overview:<br/>
-TuneTriumph is a minimalist and powerful web music player that lets users search and play music directly from YouTube in an MP3-style experience. Think of it as the perfect blend of Spotify vibes with YouTube's endless library.
+## Overview
+TuneTriumph is a minimalist, powerful web music player that allows users to search and play music directly from YouTube, providing a smooth, MP3-style experience. It combines the convenience of Spotify's interface with the infinite music library of YouTube.
 
-<br/>
-<br/>
-🛠️ Tech Stack:<br/>
-Frontend:
+## Tech Stack
+**Frontend:**  
 HTML, CSS, JavaScript
 
-Backend:
-Express.js, Firebase, YouTube Data API
+**Backend:**  
+Node.js, Express.js, Firebase, YouTube Data API
 
+## Features
+- **Search Music** – Instantly find your favorite tracks via YouTube.
+- **Stream Directly** – Play music straight from YouTube with no redirects.
+- **Smooth UI** – A lightweight and clean interface for seamless listening.
+- **Firebase Integration** – Real-time features and high performance.
 
-<br/>
-<br/>
-🌟 Features:<br/>
-🔍 Search Music: Instantly find your favorite tracks via YouTube search.
-
-🎧 Stream Directly: Plays music straight from YouTube without redirects.
-
-⚡ Smooth UI: Lightweight interface for a clean, uninterrupted listening experience.
-
-📡 Firebase Integration: Real-time features and fast performance with Firebase backend.
-
-<br/><br/>
-🚧 How It Works:<br/>
-User enters a song or artist name in the search bar.
-
-App fetches results using the YouTube Data API.
-
-The backend extracts audio and streams it in real-time.
-
-Boom — music starts playing instantly.
-
-<br/>
+## How It Works
+1. User enters a song or artist name in the search bar.
+2. The app uses the YouTube Data API to fetch relevant video results.
+3. The backend processes the video and extracts the audio stream.
+4. Audio plays instantly in the browser — no download, no waiting.
